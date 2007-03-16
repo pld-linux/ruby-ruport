@@ -1,5 +1,5 @@
 Summary:	Reporting system for Ruby
-Summary(pl.UTF-8):	System raportujący dla Ruby
+Summary(pl.UTF-8):	System raportujący dla języka Ruby
 Name:		ruby-ruport
 Version:	0.8.99.581
 Release:	1
@@ -7,7 +7,6 @@ License:	Ruby's
 Group:		Development/Languages
 Source0:	ruport-%{version}.tar.gz
 # Source0-md5:	dd5be28578bcfd01e416f4b257503f02
-#Patch0: %{name}-nogems.patch
 URL:		http://code.rubyreports.org/
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
@@ -21,9 +20,9 @@ lightweight toolset to help you develop your reporting applications
 and keep things DRY, Ruport can help.
 
 %description -l pl.UTF-8
-Ruby Reports to prosty, rozszerzalny system raportujący dla Ruby.
-Zestaw lekkich narzędzi pomagających rozwijać aplikacje generujące
-raporty, zaprojektowany w myśl filozofii DRY.
+Ruby Reports to prosty, rozszerzalny system raportujący dla języka
+Ruby. Zestaw lekkich narzędzi pomagających rozwijać aplikacje
+generujące raporty, zaprojektowany w myśl filozofii DRY.
 
 %prep
 %setup -q -n ruport-%{version}
