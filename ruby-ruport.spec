@@ -8,7 +8,6 @@ Group:		Development/Languages
 Source0:	http://gems.rubyforge.org/gems/ruport-%{version}.gem
 # Source0-md5:	9eb2e89f32155ceabec1e4fc848080dd
 URL:		http://code.rubyreports.org/
-BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	setup.rb >= 3.3.1
 #BuildArch:	noarch
