@@ -10,7 +10,7 @@ Source0:	http://gems.rubyforge.org/gems/ruport-%{version}.gem
 URL:		http://code.rubyreports.org/
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
